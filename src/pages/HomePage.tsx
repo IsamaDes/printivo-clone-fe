@@ -1,10 +1,17 @@
  
-import Home from '../components/Home'
+import Hero from '@/components/Hero'
+import NavBar from '@/components/NavBar'
+import PopularProducts from '@/components/PopularProducts'
 import React from 'react'
 
 function HomePage() {
   return (
-    <Home/>
+    <div>
+    <NavBar/>
+    <Hero/>
+    <PopularProducts/>
+    </div>
+    
   )
 }
 
