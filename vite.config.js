@@ -11,6 +11,7 @@ export default defineConfig({
   // you can just write
   //    import Hero from "@/components/Hero"
   // Make sure this matches the "paths" setting in tsconfig.json
+  //
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

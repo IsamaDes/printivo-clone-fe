@@ -54,7 +54,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <img src="/printivo-logo.svg" alt="Logo" className="h-10" />
+        <img src="/round-sticker.png" alt="Logo" className="h-[250px]" />
       </div>
     </div>
   );
