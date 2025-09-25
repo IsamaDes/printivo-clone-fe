@@ -26,7 +26,9 @@ const NavBar = () => {
           </div>
         </div>
 
-        <img src="/whatsappimg.svg" alt="Logo" className="h-10" />
+        <button className='cursor-pointer'>
+             <img src="/whatsappimg.svg" alt="Logo" className="h-10" />
+        </button>
 
         <div className="flex items-center p-2 gap-3 border-2 border-gray-500 rounded-full">
           <img src="/nigerianflagimg.svg" alt="Logo" className="h-5" />

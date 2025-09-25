@@ -8,20 +8,22 @@ const Hero = () => {
 
         <div className="flex gap-3 justify-between items-center">
           <div className="flex justify-between gap-2">
-            <div>All products</div>
-            <div>Become a Reseller</div>
-            <div>Merch Store</div>
-            <div>Marketplace</div>
+            <button className='cursor-pointer'>All products</button>
+            <button className='cursor-pointer'>Become a Reseller</button>
+            <button className='cursor-pointer'>Merch Store</button>
+            <button className='cursor-pointer'>Marketplace</button>
           </div>
 
           <div className="flex justify-between gap-3">
-            <button className="bg-transparent text-black px-4 py-2 rounded">
+            <button className="bg-transparent text-black px-4 py-2 rounded cursor-pointer">
               Sign in
             </button>
-            <button className="bg-transparent text-black px-4 py-2 rounded">
+            <button className="bg-transparent text-black px-4 py-2 rounded cursor-pointer">
               Create Account
             </button>
-            <img src="/cartimg.svg" alt="Logo" className="h-10" />
+            <button className="bg-transparent text-black px-4 py-2 rounded cursor-pointer">
+              <img src="/cartimg.svg" alt="Logo" className="h-10" />
+            </button>
           </div>
         </div>
       </div>
@@ -46,7 +48,9 @@ const Hero = () => {
                 placeholder="Search for business"
                 className="w-[95%] h-[70px]"
               />
-              <img src="/searchimg.svg" />
+              <button className='cursor-pointer'>
+                <img src="/searchimg.svg" />
+              </button> 
             </div>
           </div>
         </div>
