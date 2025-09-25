@@ -1,11 +1,11 @@
 // src/App.tsx
-import React from "react";
-import HomePage from "./pages/HomePage";
+import React from 'react';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
-    <div>  
-      <HomePage/>
+    <div>
+      <HomePage />
     </div>
   );
 }
